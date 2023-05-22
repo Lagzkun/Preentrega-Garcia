@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e7c18e;
+}
+.navbar-menu {
+    display: flex;
+    gap: 10px;
+}
+.navbar-menu a {
+    color: #008000;
+    font-size: 24px;
+}
+.logo {
+    color: #008000;
+}
+
+@media (max-width: 599px) {
+    .navbar-menu {
+        display: none;
+    }
+}
