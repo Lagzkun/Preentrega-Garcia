@@ -11,8 +11,8 @@ const Navbar = () => {
                 <a href="#">Inicio</a>
                 <a href="#">Menu</a>
                 <a href="#">Contacto</a>
-            </div>
             <CartWidget/>
+            </div>
         </nav>
     )
 }
